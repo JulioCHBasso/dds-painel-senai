@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Aula</title>
+</head>
+
+<body>
+    <div>
+        <h1>Inserir Aula</h1>
+        <form action="/aula" method="post" enctype="multipart/form-data">
+            <label for="cod_Intrutor">Cod Intrutor</label><br>
+            <input type="text" name="cod_Intrutor"><br>          
+            <label for="instrutor">Instrutor</label><br>
+            <input type="text" name="instrutor"><br>
+            <label for="turma">Turma</label><br>
+            <input type="text" name="turma"><br>
+            <label for="data">Data</label><br>
+            <input type="date" name="data"><br>
+            <label for="Hora_inicio">Hora inicio</label><br>
+            <input type="time" name="Hora_inicio"><br>
+            <label for="hora_fim">Hora fim</label><br>
+            <input type="time" name="hora_fim"><br>
+            <label for="unidade_curricular">Unidade Curricular</label><br>
+            <input type="text" name="unidade_curricular"><br>
+            <label for="tipo">Tipo</label><br>
+            <input type="text" name="tipo"><br>
+            <label for="ambiente">Ambiente</label><br>
+            <input type="text" name="ambiente"><br>
+            <label for="turno">Turno</label><br>
+            <input type="radio" for="turno" name="turno" value="1">M
+            <input type="radio" for="turno"  name="turno" value="2">V
+            <input type="radio" for="turno"  name="turno" value="3">N
+            <input type="radio" for="turno"  name="turno" value="4">I <br>
+            <label for="chave_entregue">Chave Entregue </label>
+            <input type="checkbox" name="chave_entregue" value="1"><br> <br>
+            <input type="submit" value="enviar">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
